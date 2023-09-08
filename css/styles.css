@@ -38,10 +38,13 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15;
+  padding: 0 15px;
   margin: 0 auto;
 }
 /* Header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -51,6 +54,7 @@ img {
 .logo {
   display: flex;
   align-items: center;
+  margin-right: 76px;
   color: #4d5ae5;
   font-family: var(--font-logo);
   font-size: 18px;
@@ -123,6 +127,7 @@ img {
 .header-address-link:focus {
   color: #404bbf;
 }
+/* Hero section */
 
 .hero-section {
   background-color: #2e2f42;
@@ -153,6 +158,8 @@ img {
 .hero-section-button:focus {
   background: #404bbf;
 }
+
+/* Advantages section */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -179,7 +186,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+/* Team section */
 .section-team {
   background-color: #f4f4fd;
 }
@@ -211,6 +218,8 @@ img {
   letter-spacing: 0.02em;
 }
 
+/* Portfolio section */
+
 .section-portfolio-title {
   text-align: center;
   font-size: 36px;
@@ -236,6 +245,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* Footer */
 
 .footer {
   background-color: #2e2f42;
