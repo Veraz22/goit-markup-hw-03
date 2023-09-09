@@ -20,9 +20,12 @@ body {
 a {
   text-decoration: none;
 }
-h1 h2 h3 h4 h5 h6 p {
+
+
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
+
 
 ul {
   list-style-type: none;
@@ -66,8 +69,7 @@ img {
 
 .header-nav {
   display: flex;
-  flex-grow: 1;
-  gap: 24px;
+
   align-items: center;
 }
 
@@ -143,7 +145,7 @@ img {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .hero-section-button {
@@ -316,10 +318,12 @@ img {
   padding: 100px 0;
 
 }
-.logo{
+.footer-log{
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
+
+
 
 .footer-text {
   color: #f4f4fd;
